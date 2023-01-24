@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login For Booking</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/loginCheck.js" defer></script>
+  <script src="js/concert_tickets.js" defer></script>
+</head>
+
+<body id="body">
+  <div class="background">
+
+    <header class="header_container">
+      <div class="header-left">
+        <h1>monster <span> MUSIC </span> group</h1>
+      </div>
+
+      <div class="header-right">
+        <nav>
+          <a href=""> &lt; Back to Home</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page_container">
+        <div class="page-left">
+          
+          <h2>The world's leading live music online ticket  booking</h2>
+          
+          <p>
+            Providing superior ticketing, booking service solution for anyone who <b>LOVES</b> music.
+          </p>
+
+            <a class="more-button" href="#">Learn more</a>
+        </div>
+
+        <div class="page-right">
+          <h3>Booking Login</h3>
+
+          <form action="pages/booking.html" id="login-checker-form" class="form">
+            <label>User Name</label>
+            <input type="text" name="user-name" id="user-name">
+
+            <label>Password</label>
+            <input type="text" name="password" id="password">
+
+            <button type="submit">Login</button>
+
+            <div class="error-message" id="error-message"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+  </div><!-- background end -->
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket Booking</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <script src="../js/concert_tickets.js" defer></script>
+  <script src="../js/bookingForm_V2.js" defer></script>
+
+</head>
+<body id="top">
+  <div class="background_header">
+  <header class="header_container">
+    <div class="header-left">
+      <h1>monster <span> MUSIC </span> group</h1>
+    </div>
+
+    <div class="header-right">
+      <nav>
+        <a href="../index.html"> &lt; Back to Home</a>
+      </nav>
+    </div>
+  </header>
+  </div>
+
+  <main>
+    <div class="booking_container">
+
+      <h2><span>Online Ticket Booking</span></h2>
+      
+      <h3>All Tickets</h3>
+
+      <p>
+        All booking available tickets are here. Please check and book now!
+      </p>
+
+      <div class="jump">
+        <a href="#jump">
+          <img src="../images/basket-icon.png" alt="">
+          <p >Check your basket</p>
+        </a>
+      </div>
+  
+      <table class="table" id="current-ticket-table"></table>
+
+
+      <h3 id="jump">Your Basket</h3>
+
+      <p>
+        The list of ticket to request to be ordered.
+      </p>
+  
+      <table class="table" id="ticket-order-basket"></table>
+      
+      
+      <div class="booking_form">
+        <h3>Booking Order Form</h3>
+
+        <form class="form" id="ticket-order-form">
+          <label>Full name</label>
+          <input type="text" id="user-fullname">
+    
+          <label>Email address</label>
+          <input type="text" id="user-email">
+
+          <label>Credit card number (Visa / Master Card / JCB)</label>
+          <input type="text" id="user-credit-number">
+    
+          <button type="submit">Submit Order Request</button>
+
+          <div class="error-message" id="error-message"></div>
+    
+        </form>
+      </div>
+    </div>
+
+    <div class="jump">
+      <a href="#top"><p>Back to tpo</p></a>
+    </div>
+
+  </main>
+  
+</body>
+</html>

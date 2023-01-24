@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input[type=text]{ 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; 
+}
+
+body, input, button {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url("../images/music.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background_header {
+  background-color: #161616;
+}
+
+
+h1 {
+  font-size: 2.7rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 span {
+  color: #e16579;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+h2 span {
+  color: #161616;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: black;
+}
+
+img {
+ width: 30px;
+ height: 30px;
+ margin-right: 0.5rem;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 3rem;
+}
+
+.header-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.page_container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1280px;
+  min-height: 400px;
+  margin: 5rem auto;
+}
+
+.page-left {
+  max-width: 400px;
+}
+
+.page-left p {
+  margin-bottom: 3rem;
+}
+
+.page-right {
+  max-width: 400px;
+  background-color: rgba(220, 220, 220, 0.798);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+  padding: 3rem;
+}
+
+input {
+  padding: 0.6rem;
+  width: 100%;
+  margin-top: 0.6rem;
+  margin-bottom: 1.3rem;
+  border-radius: 5px;
+  color: black;
+}
+
+.more-button,
+button {
+  padding: 0.6rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #e16579;
+  font-size: 18px;
+  font-weight: 700;
+  border:none;
+}
+
+.more-button {
+  text-decoration: none;
+  color: white;
+  padding: 0.6rem 4rem;
+}
+
+.more-button:hover,
+button:hover {
+  background-color: white;
+  color: #e16579;
+}
+
+label {
+  font-weight: 700;
+  color: black;
+}
+
+.error-message {
+  color: crimson;
+  font-weight: bold;
+  margin: 0;
+}
+
+/*  Booking Form*/
+.booking_container {
+  margin: 1rem 5rem;
+  max-width: 900px;
+  color: #161616;
+}
+
+.booking_container p{
+  font-size: 18px;
+}
+
+.jump a {
+  display:flex;
+  justify-content: end;
+  align-items:center;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.jump p {
+  font-size: 16px;
+}
+
+.booking_form label,
+.booking_form input,
+.booking_form button {
+  width: 400px;
+  display: block;
+}
+
+button.update-btn:hover,
+.ticket-book-btn:hover,
+.booking_form button:hover {
+  background-color: black;
+  color: white;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th, .table td {
+  border: 1px solid black;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.table input {
+  display: block;
+  margin-top: 1rem;
+}
+
+.table button, .table input {
+  width: 100%;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+button.remove-btn,
+input.quantity-inputs,
+button.update-btn {
+  width: 30%;
+  font-size: 1rem;
+  padding: 1.5vmin 0.3vmin;
+}
+
+button.remove-btn {
+  background-color: #161616;
+}
+
+button.remove-btn:hover {
+  background-color: #838383;
+  color: black;
+  
+}
+
+input.quantity-inputs {
+  display: inline;
+  justify-content: space-between;
+}
